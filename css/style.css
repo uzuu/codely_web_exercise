@@ -1,10 +1,33 @@
 
 body{
     margin-right:auto;
-	margin-left: auto;
+	  margin-left: auto;
     text-align: center;
     box-shadow:0 0 10px 0 #ccc;
     font-family: Verdana, sans-serif;
+}
+.head{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  box-shadow:0 0 10px 0 #ccc;
+  padding-left: 1cm;
+  padding-right: 1cm;
+}
+h1{
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  color:rgb(83, 0, 128);
+}
+.h1{
+  font-size:20px;
+  color:rgb(83, 0, 128);
+  font-family: serif;
+  font-weight: bold;
+  
 }
 .menu{
     display: flex;
@@ -17,17 +40,24 @@ body{
     align-items: center;
 }
 .m1, .m2, .m3, .m4{
-	padding-right:20px;
+	  padding-right:20px;
     padding-left:20px;
+    font-size:25px;
+    
 }
-
+.menus{
+  color:rgb(30, 42, 119);
+}
 img{
     width: 50px;
     height: 50px;
     object-fit: fill;
     border-radius:6px;
 }
-
+a{
+  text-decoration:none;
+  font-weight: bold;
+}
 ul {list-style-type: none;}
 
 /* Month header */
@@ -100,3 +130,7 @@ ul {list-style-type: none;}
   background: #1abc9c;
   color: white !important
 }
+/*background-image: url(img/bac2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 500px 600px;*/
