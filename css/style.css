@@ -6,6 +6,16 @@ body{
     box-shadow:0 0 10px 0 #ccc;
     font-family: Verdana, sans-serif;
 }
+h1{
+  padding-top:10px;
+  padding-bottom: 10px;
+  align-items: center;
+  background-image: url(img/bac2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 500px 600px;
+
+}
 .menu{
     display: flex;
     justify-content: space-around;
@@ -19,6 +29,7 @@ body{
 .m1, .m2, .m3, .m4{
 	padding-right:20px;
     padding-left:20px;
+    font-size:25px;
 }
 
 img{
