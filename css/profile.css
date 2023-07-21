@@ -1,0 +1,51 @@
+body {
+    background: #EDEDED
+}
+
+
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.column1{
+    width: 50%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.column2{
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item:nth-of-type(1) { flex-grow: 1; }
+.flex-item:nth-of-type(2) { flex-grow: 2; }
+
+.item1{
+    flex-grow:1;
+    text-align: center;
+}
+.item2{
+    flex-grow:3;
+    text-align: center;
+}
