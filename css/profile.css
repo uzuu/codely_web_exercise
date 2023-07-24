@@ -78,3 +78,10 @@ body {
     height: 40px;
 
 }
+.text-center
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
