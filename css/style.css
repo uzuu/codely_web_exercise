@@ -1,17 +1,16 @@
-
 body{
     margin-right:auto;
 	  margin-left: auto;
     text-align: center;
-    box-shadow:0 0 10px 0 #ccc;
     font-family: Verdana, sans-serif;
 }
 .head{
+  height: 70px;
   display: flex;
   justify-content:space-between;
   align-items: center;
   box-shadow:0 0 10px 0 #ccc;
-  padding-left: 1cm;
+  padding-left: 0.5cm;
   padding-right: 1cm;
 }
 h1{
@@ -22,28 +21,36 @@ h1{
   justify-content: center;
   color:rgb(83, 0, 128);
 }
+h2{
+  display: flex;
+  align-items: center;
+  color:rgb(132, 6, 199);
+  padding-left: 0.5cm;
+  width: max-content;
+  /* box-shadow:0 0 10px 0 #ccc; */
+  margin-top: -5px;
+}
 .h1{
   font-size:20px;
   color:rgb(83, 0, 128);
   font-family: serif;
   font-weight: bold;
-  
 }
 .menu{
     display: flex;
     justify-content: space-around;
-    margin-bottom:20px; 
+    margin-top: 5px;  
 }
-.menu1,.menu2,.menu3, .menu4{
+.menu1{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    /* margin-top: 10px; */
 }
-.m1, .m2, .m3, .m4{
+.m1{
 	  padding-right:20px;
     padding-left:20px;
-    font-size:25px;
-    
+    font-size:20px;
 }
 .menus{
   color:rgb(30, 42, 119);
@@ -58,78 +65,30 @@ a{
   text-decoration:none;
   font-weight: bold;
 }
-ul {list-style-type: none;}
 
-/* Month header */
-.month {
-  padding: 70px 25px;
- /* width: 100%;*/
-  background: #1abc9c;
-  text-align: center;
+.menu1:hover,.h1:hover,h2:hover {
+  background-color:rgb(234, 225, 225);
+  border-radius:8px;
+  color: rgb(20, 19, 19);
 }
 
-/* Month list */
-.month ul {
-  margin: 0;
-  padding: 0;
+.calculation{
+  display: flex; 
+  align-items:start;
+  justify-content: space-around;
+  padding-left: 0.5cm;
+  color:rgb(83, 0, 128);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.month ul li {
-  color: white;
+legend{
   font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+}
+label{
+  align-items:start;
 }
 
-/* Previous button inside month header */
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
 
-/* Next button */
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-/* Weekdays (Mon-Sun) */
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color:#ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-/* Days (1-31) */
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
-}
-
-/* Highlight the "current" day */
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white !important
-}
 /*background-image: url(img/bac2.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;

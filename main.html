@@ -3,86 +3,95 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="keywords" content="nybo" />
-        <title>нябо апп</title>
+        <title>Нябо апп</title>
         <link rel="stylesheet" href="css/style.css" />
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet"> 
-    </head>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet"> 
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      </head>
     <body>
-      <div class="head">
-        <img src="css/img/menu.png"/>
-        <h1><img src="css/img/logo.png" alt="" /><a href="main.html">нябо апп</a></h1>
-        <p class="h1">  | профайл </p>
-      </div>
+        <div class="head">
+          <!-- <img src="css/img/menu.png"/> -->
+          <h1><img src="css/img/logo.png" alt="" /><a href="main.html">Нябо апп</a></h1>
+          <p class="h1">  | Профайл </p>
+        </div>
         <div class="menu">
             <div class="menu1">
                 <img src="css/img/play.png" alt="" />
-                <p class ="m1"><a class="menus" href="content.html">видео контент </a></p></div>
-			      <div class="menu2">
+                <p class ="m1"><a class="menus" href="content.html">Видео контент </a></p></div>
+			      <div class="menu1">
                 <img src="css/img/inf.png" alt="error" />
-                <p class ="m2"><a class="menus" href="information.html">зөвлөгөө мэдээлэл</a></p> </div>
-			      <div class="menu3">
+                <p class ="m1"><a class="menus" href="information.html">Зөвлөгөө мэдээлэл</a></p> </div>
+			      <div class="menu1">
                 <img src="css/img/doc.png" alt="error" />
-                <p class ="m3"><a class="menus" href="juram.html">журам зааврууд</a></p> </div>
-            <div class="menu4">
+                <p class ="m1"><a class="menus" href="juram.html">Хэрэгцээт файл</a></p> </div>
+            <!-- <div class="menu1">
                 <img src="css/img/phone.png" alt="error" />
-                <p class ="m4"><a class="menus" href="baiguulga.html">байгууллагын хаяг утас</a></p></div>
+                <p class ="m1"><a class="menus" href="baiguulga.html">байгууллагын хаяг утас</a></p></div> -->
         </div>
-        <div class="month">      
-            <ul>
-              <li class="prev">&#10094;</li>
-              <li class="next">&#10095;</li>
-              <li>
-                August<br>
-                <span style="font-size:18px">2021</span>
-              </li>
-            </ul>
+        <h2><img src="css/img/cal.png" alt="" />Тооцоолуур</h2>
+        <div class="calculation">
+          <div class="totsoo">
+            <form>
+              <fieldset>
+                <legend>Цалин</legend>
+                <label for="tsalin">Цалингийн хэмжээ:</label><br>
+                <input type="text" id="tsalin" name="tsalin"><br>
+                <label for="honog1">Ажиллавал зохих хоног:</label><br>
+                <input type="text" id="honog1" name="honog1"><br>
+                <label for="honog2">Ажилсан хоног:</label><br>
+                <input type="text" id="honog2" name="honog2"><br>
+                <label for="ndsh">НДШ%:</label><br>
+                <input type="radio" id="n_huvi1" name="n_huvi1">
+                <label for="n_huvi1">9.3%</label><br>
+                <input type="radio" id="n_huvi2" name="n_huvi2">
+                <label for="n_huvi2">11.3%</label><br>
+                <input type="radio" id="n_huvi3" name="n_huvi3">
+                <label for="n_huvi3">11.5%</label><br><br>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>
+          </div>
+          <div class="totsoo">                          
+            <form>
+              <fieldset>
+                <legend>Амралтын мөнгө</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>
+          </div>
+          
+          <div class="totsoo">
+            <form>
+              <fieldset>
+                <legend>Ажилгүйдлийн тэтгэмж</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>
+          </div>
+          <div class="totsoo">
+            <form>
+              <fieldset>
+                <legend>Жирэмсний болон амаржсаны тэтгэмж</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </fieldset>
+            </form>
+          </div>
         </div>
-            <ul class="weekdays">
-                <li>Mo</li>
-                <li>Tu</li>
-                <li>We</li>
-                <li>Th</li>
-                <li>Fr</li>
-                <li>Sa</li>
-                <li>Su</li>
-              </ul>
-              
-              <ul class="days">  
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <li>8</li>
-                <li>9</li>
-                <li><span class="active">10</span></li>
-                <li>11</li>
-                <li>12</li>
-                <li>13</li>
-                <li>14</li>
-                <li>15</li>
-                <li>16</li>
-                <li>17</li>
-                <li>18</li>
-                <li>19</li>
-                <li>20</li>
-                <li>21</li>
-                <li>22</li>
-                <li>23</li>
-                <li>24</li>
-                <li>25</li>
-                <li>26</li>
-                <li>27</li>
-                <li>28</li>
-                <li>29</li>
-                <li>30</li>
-                <li>31</li>
-              </ul>
     </body>
 </html>
