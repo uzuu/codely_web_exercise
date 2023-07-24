@@ -13,6 +13,14 @@ a:link {
   text-decoration: underline;
 }
 
+.text-center
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 a:visited {
   color: black;
   background-color: transparent;
