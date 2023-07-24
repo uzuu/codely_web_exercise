@@ -1,20 +1,48 @@
 body{
-    background-color: white;
+    margin: 0;
+    background-color: #EDEDED;
     margin-right:auto;
-    margin-left: auto;
+	margin-left: auto;
     text-align: center;
     box-shadow:0 0 10px 0 #ccc;
     font-family: Verdana, sans-serif;
 }
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+main {
+  margin-top: 50px;
+}
 .menu{
+    border-radius: 0px 0px 25px 25px;
+    background-color: white;
+    width: 70vw;
+    height: 50px;
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-around;
+}
+.gol{
+    display: flex;
+    justify-content: center;
 }
 
 .m1{
-	padding-right:20px;
+	  padding-right:20px;
     padding-left:20px;
 }
 .collapsible {
@@ -30,15 +58,14 @@ body{
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #EDEDED;
   }
   
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #EDEDED;
   }
 
- 
-
+  
